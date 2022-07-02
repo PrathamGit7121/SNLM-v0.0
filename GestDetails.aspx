@@ -86,7 +86,7 @@
                                             <div class="form-group col-md-4">
                                                 <asp:Label for="AgeOne" ID="AgeLabel1" Text="age" runat="server"></asp:Label>
                                                 <asp:TextBox ID="AgeOne" runat="server" CssClass="form-control" Placeholder="Age"></asp:TextBox>
-                                            </div>
+                                            </div><!-- visible false for testing -->
                                             <div class="form-group col-md-8">
                                                 <asp:TextBox ID="PersonTwo" runat="server" CssClass="form-control" Placeholder="Person 2" Visible="false"></asp:TextBox>
                                             </div>
